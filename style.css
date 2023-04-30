@@ -1,0 +1,69 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(" https://images7.alphacoders.com/304/thumb-1920-304189.jpg");
+
+}
+
+#top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#boardcontainer {
+  height: 100vh;
+  width: 60vw;
+}
+
+div#memory_board {
+  background-color: rgb(117, 167, 241);
+  border: #999 5px solid;
+  padding: 24px;
+  height: 80%;
+  width: 70%;
+  margin: 20px auto;
+}
+
+.divcontainer {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  height: 25%;
+  width: 50%;
+  padding: 2%;
+}
+
+.tile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 200%;
+  background-color: rgb(20, 217, 220);
+  border: #000 10px solid;
+  border-radius: 15px;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+  text-align: center;
+}
+
+#clear {
+  clear: both;
+}
+
+button {
+  border-radius: 15px;
+  outline: none;
+  color: white;
+  font-weight: 700;
+  border: 0;
+  height: 70%;
+  width: 100%;
+  background-color: rgb(220, 20, 130);
+  padding-bottom: 10px;
+}
